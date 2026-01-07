@@ -1,0 +1,26 @@
+/* webapp/src/style/chat/userRow.css */
+.chat-user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.chat-user-item.selected {
+  background: #6f6b6b;
+}
+
+.action-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.user-actions {
+  display: flex;
+  gap: 6px;
+}
